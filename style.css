@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=PT+Sans&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.loginButton{
+    font-family: 'Roboto Mono', monospace;
+    width: 350px;
+    height: 450px;
+    max-width: 200px;
+    max-height: 100px;
+    margin: auto;
+    border: solid 2px black;
+    margin-top: 50px;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.registerButton{
+    font-family: 'Roboto Mono', monospace;
+    width: 550px;
+    height: 450px;
+    max-width: 200px;
+    max-height: 100px;
+    margin: auto;
+    border: solid 2px black;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.register{
+    width: 350px;
+    height: 450px;
+    max-width: 350px;
+    max-height: 450px;
+    margin: auto;
+    border: solid 2px black;
+    margin-top: 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+.login{
+    width: 350px;
+    height: 450px;
+    max-width: 350px;
+    max-height: 450px;
+    margin: auto;
+    border: solid 2px black;
+    margin-top: 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header{
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    max-width: 350px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .join{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+.header .login{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+.uniteLogin{
+    margin: auto;
+    width: 300px;
+    margin-top: 50px;
+    max-width: 350px;
+    max-height: 250px;
+    justify-content:center;
+    align-items: center;
+}
+.unite{
+    margin: auto;
+    width: 300px;
+    max-width: 350px;
+    max-height: 250px;
+    margin-top: 15px;
+    justify-content:center;
+    align-items: center;
+}
+
+.emailInput{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.validEmail{
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 0, 0);
+}
+.passwoardDisplay{
+    display: flex;
+}
+.eyeClosed{
+    position: relative;
+    z-index: 1;
+    margin-left: -25px;
+    margin-top: 17px;
+    height: 16px;
+
+}
+.eyeOpened{
+    position: relative;
+    z-index: 1;
+    margin-left: -25px;
+    margin-top: 17px;
+    height: 16px;
+
+}
+svg{
+    position: relative;
+    z-index: -3;
+}
+.inputs{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.passwoardInput{
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    font-size: 15px;
+    padding-right: 30px;
+
+}
+.FirstNameInput{
+    margin-top: 25px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.LastNameInput{
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.haveAccount{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    max-width: 140px;
+    max-height: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.loginButtonBis{
+    cursor: pointer;
+    text-decoration:underline;
+    margin-left: 5px;
+}
+
+.dontHaveAccount{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    max-width: 160px;
+    max-height: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.registerButtonBis{
+    cursor: pointer;
+    text-decoration:underline;
+    margin-left: 5px;
+}
+
+.joinUsButton{
+    font-family: 'Roboto Mono', monospace;
+    width: 1000px;
+    height: 1000px;
+    max-width: 150px;
+    max-height: 45px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.803);
+    color: white;
+    margin-top: 10px;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.logButton{
+    font-family: 'Roboto Mono', monospace;
+    width: 1000px;
+    height: 1000px;
+    max-width: 150px;
+    max-height: 45px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.803);
+    color: white;
+    margin-top: 50px;
+    align-items: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
