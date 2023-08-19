@@ -16,6 +16,14 @@ const registerButtonBis = document.querySelector(".registerButtonBis")
 const loginButtonBis = document.querySelector(".loginButtonBis")
 const allvalidEmail = document.querySelectorAll(".validEmail")
 const validEmail = document.querySelectorAll(".validEmail")
+const userInfoDisplay = document.querySelector(".userInfoDisplay")
+const newUserInfoDisplay = document.querySelector(".newUserInfoDisplay")
+const newEmail= document.querySelector(".newEmail")
+const newPassword= document.querySelector(".newPassword")
+const email= document.querySelector(".email")
+const password= document.querySelector(".password")
+const newFirstName= document.querySelector(".newFirstName")
+const newLastName= document.querySelector(".newLastName")
 
 
 const emailUser = emailRegister.value
@@ -29,7 +37,8 @@ const eye = '<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 5
 
 register.style.display = "none" 
 login.style.display = "none"
-
+userInfoDisplay.style.display = "none"
+newUserInfoDisplay.style.display = "none"
 
 allvalidEmail.forEach(validEmail => {
     validEmail.style.display = "none"
@@ -163,10 +172,17 @@ function checkForEmptyRegister() {
         return
     }
 
-    console.log('New user Email: ', emailValue);
-    console.log('New user password: ', passwoardRegister.value)
-    console.log('New user first name ', firstNameRegister.value)
+
+    
     console.log('New user last name: ', lastNameRegister.value)
+    newEmail.innerHTML = 'New email: ' + emailValue
+    newPassword.innerHTML = 'New password: ' + passwoardRegister.value
+    newFirstName.innerHTML = 'New first name: ' + firstNameRegister.value
+    newLastName.innerHTML = 'New last name: ' + lastNameRegister.value
+
+
+    register.style.display = "none" 
+    newUserInfoDisplay.style.display = 'block'
     eraseContent()
 }
 
@@ -211,6 +227,10 @@ function checkForEmptyLogin() {
         console.log('User Email: ', emailLogin.value)
     }
     console.log('User password: ', passwoardLogin.value)
+    login.style.display = "none"
+    userInfoDisplay.style.display = "block"
+    email.innerHTML = 'Email: ' + emailLogin.value
+    password.innerHTML = 'Password: ' + passwoardLogin.value 
     eraseContent()
 
     fieldsToCheck.forEach(field => {
