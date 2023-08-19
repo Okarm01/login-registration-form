@@ -37,7 +37,61 @@
     justify-content: center;
     cursor: pointer;
 }
+.userInfoDisplay{
+    font-family: 'Roboto Mono', monospace;
+    width: 350px;
+    height: 450px;
+    max-width: 300px;
+    max-height: 400px;
+    margin: auto;
+    border: solid 2px black;
+    margin-top: 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+.email{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.password{
+    margin-left: 40px;
+    display: flex;
+    margin-top: 30px;
 
+}
+.newUserInfoDisplay{
+    font-family: 'Roboto Mono', monospace;
+    width: 350px;
+    height: 450px;
+    max-width: 300px;
+    max-height: 400px;
+    margin: auto;
+    border: solid 2px black;
+    margin-top: 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+.newPassword{
+    margin-left: 40px;
+    display: flex;
+    margin-top: 30px;
+}
+.newEmail{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.newLastName{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.newFirstName{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 30px;
+}
 .register{
     width: 350px;
     height: 450px;
