@@ -6,7 +6,12 @@
     box-sizing: border-box;
 }
 
-
+#erroMessage{
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
 .loginButton{
     font-family: 'Roboto Mono', monospace;
     width: 350px;
@@ -84,6 +89,7 @@
     margin-left: 40px;
     margin-top: 30px;
 }
+
 .newLastName{
     display: flex;
     margin-left: 40px;
@@ -149,13 +155,8 @@
     max-height: 250px;
     
 }
-.incorectData{
-    font-size: 13px;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(255, 0, 0);
-    margin-bottom: 10px;
-    
-}
+
+
 .unite{
     margin: auto;
     width: 300px;
@@ -171,17 +172,7 @@
     font-size: 15px;
     
 }
-.validEmail{
-    font-size: 13px;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(255, 0, 0);
-}
 
-.invalidPassword{
-    font-size: 13px;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(255, 0, 0);
-}
 
 .passwoardDisplay{
     display: flex;
