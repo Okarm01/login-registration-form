@@ -28,8 +28,11 @@
 
         <div class="unite">
             <div class="inputs">
+                <div class="mailAlreadyUsed" id="erroMessage">
+                    This email is already associated with an existing account
+                </div>
                 <input type="text" placeholder="E-mail address" class="emailInput" autocorrect="off" spellcheck="false" autocapitalize="off" id="emailRegister">
-                <div class="validEmail">
+                <div class="validEmail" id="erroMessage">
                     Please enter a valid email address
                 </div>
                 <div class="passwoardDisplay">
@@ -37,7 +40,7 @@
 
                     <div class="eyeClosed"></div>
                 </div>
-                <div class="invalidPassword">
+                <div class="invalidPassword" id="erroMessage">
                     The password must be 6 characters long or more
                 </div>
                 <input type="text" placeholder="First name" class="FirstNameInput" autocorrect="off" spellcheck="false" autocapitalize="off" id="firstNameRegister">
@@ -71,18 +74,25 @@
         <div class="uniteLogin">
             
             <div class="inputs">
-                <div class="incorectData">
-                    Your email address or password is not correct
+                <div class="toManyRequests" id="erroMessage">
+                    Too many requests, please retry later
                 </div>
                 
+                
                 <input type="text" placeholder="E-mail address" class="emailInput" autocorrect="off" spellcheck="false" autocapitalize="off" id="emailLogin">
-                <div class="validEmail">
+                <div class="validEmail" id="erroMessage">
                     Please enter a valid email address
+                </div>
+                <div class="incorrectEmail" id="erroMessage">
+                    This email is not currently associated with any existing account
                 </div>
                 <div class="passwoardDisplay">
                     <input type="password" placeholder="Password" class="passwoardInput" autocorrect="off" spellcheck="false" autocapitalize="off" id="passwoardLogin">
                     
                     <div class="eyeClosed"></div>
+                </div>
+                <div class="incorrectPassword" id="erroMessage">
+                    Incorect password
                 </div>
                 
                 
